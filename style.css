@@ -1,0 +1,599 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+  height: 80px;
+  background: mediumvioletred;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem calc((100vw - 1300px) / 2);
+  font-family: 'Raleway', sans-serif;
+}
+
+.logo {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0 2rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 0 1.5rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+nav a:hover {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.giro {
+  background: lavenderblush;
+}
+
+.giro-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 95vh;
+  padding: 3rem calc((100vw - 1300px) / 2);
+}
+
+.column-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #000;
+  padding: 0rem 2rem;
+}
+
+.column-left h1 {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+.column-left p {
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+button {
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  border: none;
+  color: mediumvioletred;
+  background: #000;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+button:hover {
+  background: mediumvioletred;
+  color: #000;
+}
+
+.column-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 2rem;
+}
+
+.giro-image {
+  width: 95%;
+  height: 85%;
+}
+/* information */
+
+.text-info{
+  background-color: lavenderblush;
+  height: 100%;
+  width: 120%;
+  font-size: 1.3rem;
+ }
+
+.route-image img{
+  max-width: 100%;
+  height: 75%;
+  position: relative;
+  text-align: center;
+ }
+
+.column-rigthINFO {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #000;
+  padding: 0rem 2rem;
+}
+
+.column-rigthINFO h1 {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.column-rigthINFO p {
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+.column-leftINFO {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 2rem;
+}
+
+/* teams */
+
+.teams-info{
+  background-color: lavenderblush;
+  height: 100%;
+  width: 180%;
+  font-size: 1.2rem;
+  line-height: 1.5;
+ }
+
+.teams-image {
+
+  width: 90%;
+  height: 85%;
+  border: 3px solid lavenderblush;
+  border-radius: 25px;
+  padding-left: 15px;
+  padding-right: 10px;
+  padding-top: 150px;
+  padding-bottom: 0.25px;
+}
+
+
+
+.subtitle-page {
+    position: absolute;
+    right: 14%;
+    bottom: -1%;
+}
+
+/* stages */
+
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: lavenderblush;
+}
+h2{
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    padding: 30px 0;
+}
+
+.label {
+    position: absolute;
+    right: 95%;
+    bottom: -13%;
+}
+
+/* Table Styles */
+
+.table-wrapper{
+    margin: 10px 70px 70px;
+    box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+}
+
+.fl-table {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+
+}
+
+.fl-table td, .fl-table th {
+    text-align: center;
+    padding: 8px;
+    font-size: 22px;
+    border-bottom: 1px solid black;
+}
+
+.fl-table td {
+
+    font-size: 12px;
+}
+
+.fl-table thead th {
+    color: white;
+    background: mediumvioletred;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+
+.fl-table thead th:nth-child(odd) {
+    color: white;
+}
+
+
+.fl-table-td-TTT{
+    color: black;
+    background-color: mediumpurple;
+}
+
+.fl-table-td-INTERMEDIATE{
+    color: black;
+    background-color: beige;
+}
+
+.fl-table-td-FLAT{
+    color: black;
+    background-color: lightgreen;
+}
+
+.fl-table-td-MOUNTAIN{
+    color: black;
+    background-color: lightsalmon;
+}
+.fl-table-td-HILLY{
+    color: black;
+    background-color: lightblue;
+}
+
+/* cyclists */
+
+.row{
+  display: flex;
+  flex-flow: row wrap;
+  padding:10px;
+}
+
+.column-25-head {
+   width: 25%;
+   text-align: center;
+   right: 2%;
+   background-color: grey;
+   font-size: 20px;
+   color: white;
+   border-radius: 25px;
+   border: none;
+   border-collapse: collapse;
+}
+.column-25 {
+    width: 25%;
+    text-align: center;
+    padding-left: 55px;
+    padding-right: 10px;
+}
+
+
+.column-50-head {
+   width: 50%;
+   text-align: center;
+   right: 2%;
+   background-color: grey;
+   font-size: 20px;
+   color: white;
+   border-radius: 25px;
+   border: none;
+   border-collapse: collapse;
+}
+.column-50 {
+    width: 50%;
+    text-align: center;
+    padding-left: 55px;
+    padding-right: 10px;
+}
+
+
+/* top 10 table */
+
+
+
+.table-wrapperTOP{
+    margin: 10px 70px 70px;
+    box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+}
+
+.fl-tableTOP {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+
+}
+
+.fl-tableTOP td, .fl-tableTOP th {
+    text-align: center;
+    padding: 8px;
+    font-size: 22px;
+    border-bottom: 1px solid black;
+}
+
+.fl-tableTOP td {
+
+    font-size: 15px;
+    line-height: 2.0;
+    border-left: 1px solid black;
+    border-right: 1px solid black;;
+
+}
+
+.fl-tableTOP thead th {
+    color: white;
+    background: mediumvioletred;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+
+.fl-tableTOP thead th:nth-child(odd) {
+    color: white;
+}
+
+
+
+
+/* points table */
+
+
+.table-wrapperPOINTS{
+    margin: 10px 70px 70px;
+    box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+}
+
+.fl-tablePOINTS {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+
+}
+
+.fl-tablePOINTS td, .fl-tablePOINTS th {
+    text-align: center;
+    padding: 8px;
+    font-size: 22px;
+    border-bottom: 1px solid black;
+}
+
+.fl-tablePOINTS td {
+
+    font-size: 15px;
+    line-height: 2.0;
+    border-left: 1px solid black;
+    border-right: 1px solid black;;
+
+}
+
+.fl-tablePOINTS thead th {
+    color: white;
+    background: mediumvioletred;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+
+.fl-tableTOP thead th:nth-child(odd) {
+    color: white;
+}
+
+.rules {
+    position: absolute;
+    right: 95%;
+    bottom: -65%;
+}
+.rules-text {
+    position: center;
+    right: 90%;
+    bottom: -80%;
+    line-height: 1.5;
+
+}
+
+.games-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 95vh;
+  padding: 3rem calc((100vw - 1300px) / 2);
+}
+
+.games-info{
+  background-color: lavenderblush;
+  height: 100%;
+  width: 200%;
+  font-size: 1.2rem;
+  line-height: 1.5;
+ }
+
+
+.games-h4{
+  background-color: lavenderblush;
+  height: 100%;
+  width: 250%;
+  font-size: 1.2rem;
+  line-height: 3.0;
+ }
+
+
+.column-leftGAMES {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #000;
+  padding: 0rem 2rem;
+
+}
+
+.column-leftGAMES h1 {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+.column-leftGAMES p {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+
+/* games */
+
+.column-25GAMES-head {
+   width: 25%;
+   text-align: center;
+   right: 2%;
+   background-color: mediumvioletred;
+   font-size: 30px;
+   color: white;
+   border-radius: 25px;
+   border: none;
+   border-collapse: collapse;
+}
+.column-25GAMES {
+    width: 25%;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.column-25GAMES-BUTTON {
+    width: 25%;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.column-25MAGLIAS {
+    width: 25%;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 10px;
+    border-radius: 75px;
+    border: black;
+    border-collapse: collapse;
+}
+
+.column-100GAMES-head {
+   width: 100%;
+   text-align: center;
+   right: 2%;
+   background-color: mediumvioletred;
+   font-size: 30px;
+   color: white;
+   border-radius: 25px;
+   border: none;
+   border-collapse: collapse;
+}
+.column-100GAMES{
+    width: 100%;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 10px;
+
+}
+.column-100GAMES-BUTTON {
+    width: 100%;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+
+.teams-info-indv{
+  background-color: lavenderblush;
+  height: 100%;
+  width: 50%;
+  font-size: 1.2rem;
+  line-height: 1.7;
+ }
+
+
+.column-left-indv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #000;
+  padding: 0rem 2rem;
+}
+
+.column-left-indv-h {
+  margin-bottom: 1rem;
+  font-size: 2.2rem;
+  line-height: 1.0;
+
+}
+
+.column-left-indv-p {
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.column-left-indv-list {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.equipment-image {
+  width: 90%;
+  height: 85%;
+  padding-left: 15px;
+  padding-right: 10px;
+  padding-top: 150px;
+  padding-bottom: 0.25px;
+}
+
+@media screen and (max-width: 768px) {
+  .giro-container {
+    grid-template-columns: 1fr;
+  }
+}

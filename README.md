@@ -1,5 +1,6 @@
 # Giro d'Italia
 
-Este repositório diz respeito ao giro d'italia. Uma prova de ciclismo que ocorre em maio de cada ano.
+This repository concerns to the Giro d'Italia. A cycling race that takes place in May of each year.
 
-Aqui pode ser visto os rankings deste ano, as equipas e os seus participantes, pequenos jogos que foram feitos enquanto decorria a prova de 2023.
+Here you can see this year's rankings, the teams and their participants, small games that were made during the 2023 race.
+
